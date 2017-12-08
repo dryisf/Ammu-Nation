@@ -1,0 +1,14 @@
+body
+{background-color:#CECECE;}
+
+header
+{
+vertical-align:top;
+margin-left:37%;}
+
+footer
+{display:inline-block;
+max-width:5em;
+border-top-color:black;
+border-top-width:1px;
+border-top-style:solid;}
