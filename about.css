@@ -1,0 +1,35 @@
+body
+{
+	background-color:#CECECE
+}
+
+header
+{
+	vertical-align:top;
+	text-align:center;
+}	
+
+section
+{
+	display:inline-block;
+	margin-left:12em;
+	margin-right:12em;
+	border-top-style:solid;
+	border-top-width:4px;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	border-color:black;
+}
+
+h1
+{
+	vertical-align:top;
+	text-align:center
+}
+
+p 
+{
+	text-align:justify;
+	padding-left:3em;
+	padding-right:3em;
+}
