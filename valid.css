@@ -1,0 +1,36 @@
+body
+{
+	background-image:url(images/background.jpg);
+	color:white
+}
+
+h1
+{
+	text-align:center;
+	margin-left:20%;
+	margin-right:20%;
+	padding-bottom:2%;
+}
+
+section#coords
+{
+	padding-top:2%;
+	padding-bottom:2%;
+	margin-left:25%;
+	margin-right:25%;
+	border-bottom-style:solid;
+	border-bottom-width:4px;
+	border-bottom-color:black;
+	border-top-style:solid;
+	border-top-width:4px;
+	border-top-color:black;
+}
+
+section#buttons
+{
+	display:inline-block;
+	padding-top:2%;
+	margin-left:45%;
+}
+
+
