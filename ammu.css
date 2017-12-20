@@ -25,8 +25,8 @@ border-color:transparent;
 background-image:url("image/Logo.png");
 background-size:cover;
 background-position:50%;
-margin-left: 27%;
-margin-right: 27%;
+margin-left: 25%;
+margin-right: 25%;
 }
 header img
 {max-width:10%;
@@ -72,6 +72,12 @@ aside ul li
 	justify-content: center;
 	width:100%;
 	height:100%;
+
+}
+a
+{
+	color:black;
+	text-decoration:none;
 }
 .title
 {margin-bottom:5%;
@@ -146,6 +152,7 @@ display:inline;}
 {
 padding:0;
 margin:0;
+
 text-align:center;
 }
 
@@ -155,6 +162,11 @@ text-align:center;
 	background-size:100%;
 display:inline;
 list-style:none;
+border-width:1px;
+border-style:solid;
+border-color:transparent;
+border-top-left-radius:1.5em;
+
 }
 
 #nav a
