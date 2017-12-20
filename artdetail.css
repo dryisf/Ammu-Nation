@@ -1,23 +1,73 @@
+@font-face
+{
+	font-family:danger;
+	src:url('./danger.ttf')
+}
+
 body
 {
-	background-image:url(images/background.jpg);
+	background-image:url(./Images/background2.png);
+	background-attachment:fixed;
+	background-size:100%;
 	color:white;
 	margin-top:3%;
+	font-family:arial;
 
 }
-
-div.cadre
+em
 {
-     margin: 0 auto;
-     width: 100px;
+	color:#255ebc;
+	font-weight:bold;
+	font-style:normal;
+}
+
+div#cadre1
+{
+     margin-left:10%;
+     width: 40%;
+		 height:50%;
+		 border-width:2px ;
+		 border-style:solid;
+		 border-color:white;
 		 background-image:url(images/usflag.jpg);
 	 	font-size:50px;
-		border-radius:15px;
-}
 
-section.description
+}
+div#imgban
 {
-	margin-left:25%;
-	margin-right:25%;
+	font-family:danger;
+	font-size:45%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+div#texte1
+{
+	width:40%;
+	height:50%;
+	margin-right:10%;
 	text-align:justify;
+	padding-left:2.5em;
+}
+section.infoachat
+{
+	margin-left:10%;
+	width:40%;
+	height:25%;
+}
+div#Prix
+{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+ font-size:50px;
+ padding-right:0.5em;
+}
+div#Infos
+{
+	font-weight:normal;
+}
+section.cadreimage
+{
+display:inline-flex;
 }
