@@ -1,0 +1,100 @@
+@font-face
+{
+	font-family:danger;
+	src:url('./danger.ttf')
+}
+
+body
+{
+	background-image:url(./Images/background2.png);
+	background-attachment:fixed;
+	background-size:cover;
+	color:white;
+	margin-top:3%;
+	font-family:arial;
+}
+
+em
+{
+	color:#255ebc;
+	font-weight:bold;
+	font-style:normal;
+}
+
+section.imagedesc
+{
+display:flex;
+justify-content:space-between;
+margin-left:10%;
+}
+
+div#imgban
+{
+	height:100%;
+	width:100%;
+	border-width:2px ;
+	border-style:solid;
+	border-color:white;
+	background-image:url(images/usflag.jpg);
+	text-align:center;
+}
+
+div#desc
+{
+	width:40%;
+	height:50%;
+	margin-right:10%;
+	text-align:justify;
+	padding-left:2.5em;
+}
+
+section.infoachat
+{
+	display:flex;
+	justify-content: space-between;
+	align-items:stretch;
+	margin-left:10%;
+	height:25%;
+}
+
+section#Informations
+{
+	display:inline-block;
+}
+
+div#Prix
+{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+ font-size:50px;
+}
+
+div#Infos
+{
+	font-weight:normal;
+}
+
+section#Commentaire
+{
+	margin-right:20%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+textarea
+{
+	width:200%;
+}
+
+button#addtobucket
+{
+	width:155%;
+	color:black;
+}
+
+button
+{
+	background-color:#255ebc;
+}
