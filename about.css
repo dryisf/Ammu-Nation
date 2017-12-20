@@ -1,15 +1,18 @@
 body
 {
-	background-color:#CECECE;
-	background-image:url(images/background.jpg);
-	color:white
+	background-image:url(./Images/background2.png);
+	background-attachment:fixed;
+	background-size:cover;
+	color:white;
+	margin-top:3%;
+	font-family:arial;
 }
 
 header
 {
 	vertical-align:top;
 	text-align:center;
-}	
+}
 
 section#contents
 {
@@ -29,9 +32,29 @@ h1
 	text-align:center
 }
 
-p 
+p
 {
 	text-align:justify;
 	padding-left:2%;
 	padding-right:2%;
+}
+
+footer
+{
+	vertical-align:bottom;
+border-top-color:black;
+border-top-width:1px;
+border-top-style:solid;
+text-align:center;
+margin-top:5%
+}
+
+.logos
+{
+	position:relative;
+display:inline-flex;
+flex-direction:row;
+justify-content:space-around;
+width:1%;
+height:1%;
 }

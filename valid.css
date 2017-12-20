@@ -1,7 +1,11 @@
 body
 {
-	background-image:url(images/background.jpg);
-	color:white
+	background-image:url(./Images/background2.png);
+	background-attachment:fixed;
+	background-size:cover;
+	color:white;
+	margin-top:3%;
+	font-family:arial;
 }
 
 h1
@@ -32,4 +36,24 @@ section#buttons
 	text-align:center;
 	padding-top:2%;
 	margin-left:45%;
+}
+
+footer
+{
+	vertical-align:bottom;
+border-top-color:black;
+border-top-width:1px;
+border-top-style:solid;
+text-align:center;
+margin-top:17%
+}
+
+.logos
+{
+	position:relative;
+display:inline-flex;
+flex-direction:row;
+justify-content:space-around;
+width:1%;
+height:1%;
 }
