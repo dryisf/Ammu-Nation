@@ -152,7 +152,7 @@ display:inline;}
 {
 padding:0;
 margin:0;
-
+margin-bottom:1%;
 text-align:center;
 }
 
@@ -241,8 +241,8 @@ text-decoration: none;
 	display:inline-flex;
 	flex-direction: row;
 	justify-content: center;
-	width:auto;
-	height:auto;
+	width:90%;
+	height:100%;
 	padding:4%; margin:1%;
 }
 #slideshow figure:after {
@@ -256,7 +256,7 @@ text-decoration: none;
 }
 #slideshow figcaption {
 	position:absolute;
-	left:0; right:0; bottom: 5px;
+	left:0; right:0; bottom: 15%;
 	padding: 20px;
 	margin:0;
 	border-top: 1px solid rgb(225,225,225);
@@ -269,6 +269,15 @@ text-decoration: none;
 	color: #555;
 	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
 }
+figure img
+{
+	position:relative;
+	width:550px;
+	height:auto;
+	display:inline-flex;
+	flex-direction:row;
+}
+
 @keyframes slider {
 	0%, 20%, 100%	{ left: 0 }
 	25%, 45%		{ left: -100% }
