@@ -18,12 +18,16 @@ color:black;
 display: inline;
 }
 h1
-{color:black;
+{
+	position:relative;
+	color:black;
 border-width:1px;
 border-style:solid;
 border-color:transparent;
 background-image:url("image/Logo.png");
 background-size:cover;
+font-size: 200%;
+max-width:60%;
 background-position:50%;
 margin-left: 25%;
 margin-right: 25%;
@@ -59,34 +63,37 @@ li
 	margin-bottom:2%;
 	background-color:lightgrey;
 	font-style:sans-serif;
-
+	width:100%;
+	height:100%;
 }
 aside ul li
 {
 	position:relative;
-	display:flex;
-	width:auto;
-	height:auto;
+	display:block;
 	text-align:center;
-	flex-direction:column;
-	justify-content: center;
 	width:100%;
-	height:100%;
+	height:auto;
+	min-width:0;
+	max-height:1000em;
 
 }
 a
 {
 	color:black;
 	text-decoration:none;
+
 }
 .title
 {margin-bottom:5%;
 margin-top:5%;
 background-color:grey;
-color:Black;}
+color:Black;
+position:relative;
+width:100%;
+height:100%;}
+
 #barrerecherche
 {
-
 position:relative;
 width:90%;
 height:90%;}
@@ -121,6 +128,7 @@ section+section
 	width:17%;
 	vertical-align:top;
 	flex-direction:column;
+
 }
 section+section img
 {
@@ -143,7 +151,7 @@ width:60%;
 float:left;}
 video
 {position:relative;
-margin-top:22%;
+
 margin-left:3%;
 width:30%;
 display:inline;}
@@ -154,6 +162,7 @@ padding:0;
 margin:0;
 margin-bottom:1%;
 text-align:center;
+
 }
 
 #nav li
@@ -175,6 +184,7 @@ display:inline-block;
 margin:0 2%;
 color:black;
 text-decoration: none;
+font-size: 100%;
 }
 #slideshow {
 	position:absolute;
@@ -182,7 +192,7 @@ text-decoration: none;
 	height: 33%;
 	padding:0.5%;
 	margin-left: 37%;
-	margin-top: 2%;
+	margin-top: 19%;
 	border: 1px solid #ddd;
 	background: #FFF;
 	background: linear-gradient(#FFF, #FFF 20%, #EEE 80%, #DDD);
@@ -190,6 +200,8 @@ text-decoration: none;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.2);
  flex-direction:row;
  justify-content: center;
+ margin-bottom:2%;
+ max-height:50%;
 
 }
 
@@ -200,14 +212,17 @@ text-decoration: none;
 	background: rgba(0,0,0,0.1);
 	border-radius: 50%;
 	box-shadow: 0 0 3px rgba(0,0,0, 0.4), 0 20px 10px rgba(0,0,0, 0.7);
+
 }
 #slideshow:before {
 	left:0;
 	transform: rotate(-4deg);
+	max-height:50%;
 }
 #slideshow:after {
 	right:0;
 	transform: rotate(4deg);
+	max-height:50%;
 }
 #slideshow .container {
 	position:relative;
@@ -225,6 +240,7 @@ text-decoration: none;
 	width:100%;
 	height: 100%;
 	background: #999;
+
 }
 #slideshow .slider {
 	position: relative;
@@ -235,6 +251,7 @@ text-decoration: none;
 	width: 100%;
 	height: 100%;
 	animation: slider 32s infinite;
+
 }
 #slideshow figure {
 	position:relative;
@@ -244,6 +261,7 @@ text-decoration: none;
 	width:90%;
 	height:100%;
 	padding:4%; margin:1%;
+
 }
 #slideshow figure:after {
 	position: absolute;
@@ -253,6 +271,7 @@ text-decoration: none;
 	top:0; left:0;
 	width: 100%; height:100%;
 	box-shadow: 0 0 65px rgba(0,0,0, 0.5) inset;
+
 }
 #slideshow figcaption {
 	position:absolute;
@@ -263,19 +282,21 @@ text-decoration: none;
 	text-align:center;
 	letter-spacing: 0.05em;
 	word-spacing: 0.05em;
-	font-family: Georgia, Times, serif;
+	font-family: danger;
 	background: #fff;
 	background: rgba(255,255,255,0.7);
 	color: #555;
-	text-shadow: -1px -1px 0 rgba(255,255,255,0.3);
+	max-height:50%;
+
 }
 figure img
 {
 	position:relative;
-	width:550px;
+	width:640px;
 	height:auto;
 	display:inline-flex;
 	flex-direction:row;
+
 }
 
 @keyframes slider {
@@ -294,8 +315,28 @@ figure img
 	background: rgba(214,98,13,.8);
 	width: 0;
 	animation: timeliner 32s infinite;
+
 }
 @keyframes timeliner {
 	0%, 25%, 50%, 75%, 100%	{ width: 0;		}
 	20%, 45%, 70%, 90%		{ width: 87%;	}
+}
+@media all and (max-device-width:480px)
+{
+section+section{margin-left:5%;
+height:100%;
+width:21%;
+vertical-align:middle;}
+aside{margin-right:0;
+position:relative;
+width:21%;
+vertical-align: middle;}
+video{margin-left:11%;
+vertical-align: top;}
+#slideshow{max-height: 16%;
+width:33%;}
+footer{margin-top:20%;}
+figure img{width:290px;}
+
+
 }
