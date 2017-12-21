@@ -98,3 +98,23 @@ button
 {
 	background-color:#255ebc;
 }
+
+footer
+{
+	vertical-align:bottom;
+border-top-color:black;
+border-top-width:1px;
+border-top-style:solid;
+text-align:center;
+margin-top:5%
+}
+
+.logos
+{
+	position:relative;
+display:inline-flex;
+flex-direction:row;
+justify-content:space-around;
+width:1%;
+height:1%;
+}
