@@ -1,20 +1,166 @@
+@font-face {
+	src: url(Font/danger.ttf);
+	font-family:danger
+}
+
 body
 {
 	background-image:url(./Images/background2.png);
 	background-attachment:fixed;
 	background-size:cover;
 	margin-top:3%;
-	font-family:arial;
 	color:white;
+
+}
+header
+{
+vertical-align:top;
+font-family:danger;
+text-align:center;
+color:black;
+display: inline;
+}
+h1
+{
+	position:relative;
+	color:black;
+border-width:1px;
+border-style:solid;
+border-color:transparent;
+background-image:url("image/Logo.png");
+background-size:cover;
+font-size: 200%;
+max-width:60%;
+background-position:50%;
+margin-left: 25%;
+margin-right: 25%;
+font-family:danger;
+
+}
+header img
+{max-width:10%;
+margin-left:45%;
+}
+#nav
+{
+padding:0;
+margin:0;
+margin-bottom:1%;
+text-align:center;
+
+}
+
+#nav li
+{
+	background-image:url("image/Logo.png");
+	background-size:100%;
+display:inline;
+list-style:none;
+border-width:1px;
+border-style:solid;
+border-color:transparent;
+border-top-left-radius:1.5em;
+font-family:danger;
+
+}
+li
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+	text-align:center;
+	border-radius:0.3em;
+	margin-bottom:2%;
+	background-color:lightgrey;
+	font-style:sans-serif;
+	width:100%;
+	height:100%;
+
+}
+aside ul li
+{
+	position:relative;
+	display:block;
+	text-align:center;
+	width:100%;
+	height:100%;
+
+
+}
+ul{padding-left:0;}
+a
+{
+	color:black;
+	text-decoration:none;
+
+}
+.title
+{margin-bottom:5%;
+margin-top:5%;
+background-color:grey;
+color:Black;
+position:relative;
+width:100%;
+height:100%;}
+
+#nav a
+{
+display:inline-block;
+margin:0 2%;
+color:black;
+text-decoration: none;
+font-size: 100%;
+}
+input:focus{outline:none;}
+#barrerecherche+img
+{position:relative;
+width:8%;
+
+display:inline;
+color:black;}
+
+#barrerecherche
+{
+	position:relative;
+display:inline-flex;
+width:90%;
+float:left;
+border:0 solid transparent;
+border-radius: 0.5em;
+height:28px;
+background-color:lightgrey;
+color:grey;
+font-size:120%;
+}
+
+aside
+{
+
+	margin-right:16%;
+	display:inline-flex;
+	border-radius:0.3em;
+	width:13%;
+	float:right;
+	height:40em;
+	font-family: danger;
+	background-image:url("image/bandes.jpg");
+	align-items:center;
+	min-height:20%;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap:wrap;
+
+
 
 }
 
 div
 {
-	margin-left:35%;
+	margin-left:37%;
 	color:black;
 	background-color:silver;
 	text-align:center;
+
 }
 
 footer
