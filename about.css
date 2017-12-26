@@ -79,14 +79,30 @@ background-color:grey;
 color:Black;}
 #barrerecherche
 {
-
-position:relative;
-width:90%;
-height:90%;}
-ul
+	position:relative;
+display:inline-flex;
+width:85%;
+float:left;
+border:0 solid transparent;
+border-radius: 0.5em;
+height:28px;
+background-color:lightgrey;
+color:grey;
+font-size:120%;
+}
+input:focus{outline:none;}ul
 {
 	padding-left:0;
 list-style:none;}
+#barrerecherche+img
+{width:8%;
+position:relative;
+display:inline;}
+aside+ul+li
+{display:inline-flex;
+flex-direction:row;
+flex-wrap:nowrap;
+align-self:stretch/stretch;}
 #nav
 {
 padding:0;
@@ -94,7 +110,10 @@ margin:0;
 
 text-align:center;
 }
-
+#boutrech
+{position: relative;
+	width:100%;
+}
 #nav li
 {
 	background-image:url("image/Logo.png");
