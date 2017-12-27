@@ -126,7 +126,7 @@ border-color:transparent;
 border-top-left-radius:1.5em;
 
 }
-aside+section
+.bande
 {
 	margin-left: 10%;
 	border-width:1px;
@@ -138,7 +138,7 @@ aside+section
 	flex-direction:column;
 
 }
-aside+section img
+.bande img
 {
 
  float:left;
@@ -155,7 +155,7 @@ margin:0 2%;
 color:black;
 text-decoration: none;
 }
-section#contents
+#contents
 {
 	display:inline-flex;
 	margin-left:2%;
