@@ -8,6 +8,8 @@ body
 {background-image:url("image/backweb.png");
 background-size:cover;
 background-attachment: fixed;
+font-family:Arial;
+color:white;
 }
 header
 {
@@ -228,6 +230,14 @@ vertical-align: top;}
 width:33%;}
 footer{margin-top:20%;}
 figure img{width:290px;}
+}
 
-
+footer
+{
+vertical-align:bottom;
+border-top-color:black;
+border-top-width:1px;
+border-top-style:solid;
+text-align:center;
+margin-top:2%
 }
