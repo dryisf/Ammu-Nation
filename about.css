@@ -40,7 +40,11 @@ display: inline;
 }
 header a img
 {
-	margin-left:40%
+	margin-left:45%
+}
+ul#nav
+{
+	padding-bottom:1%;
 }
 li
 {
@@ -194,7 +198,7 @@ border-top-color:black;
 border-top-width:1px;
 border-top-style:solid;
 text-align:center;
-margin-top:5%
+margin-top:2%
 }
 
 .logos
