@@ -9,9 +9,10 @@ body
 	background-attachment:fixed;
 	background-size:cover;
 	margin-top:3%;
-
-
+	font-family:arial;
+	color:white;
 }
+
 header
 {
 vertical-align:top;
@@ -60,6 +61,7 @@ h2
 	margin-right:20%;
 	padding-bottom:2%;
 	font-family:danger;
+	color:black;
 }
 h1
 {
@@ -137,8 +139,7 @@ border-top-color:black;
 border-top-width:1px;
 border-top-style:solid;
 text-align:center;
-margin-top:17%
-font-family:arial;
+margin-top:3%;
 }
 
 .logos
